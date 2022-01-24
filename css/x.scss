@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    // border: 1px solid red;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    .resume {
+        width: 595px;
+        // height: 842px;
+
+        .resume-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            hr {
+                width: 100%;
+                background-color: #eff0f2;
+                border-style: none;
+                height: 1px;
+                margin-bottom: 0.5rem;
+            }
+
+            .contact {
+                font-size: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                // border: 1px solid red;
+
+                div {
+                    padding: 0 0.5rem 0.1rem 0.5rem;
+                    margin-top: 0.2rem;
+                }
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .name {
+                    font-family: 'Cardo';
+                    font-size: 16px;
+                    padding: 0.2rem;
+                }
+
+                .occupation {
+                    font-size: 10px;
+                    padding: 0.2rem;
+                }
+            }
+        }
+
+        @import 'content';
+
+        .footer{
+            font-size: 10px;
+
+            .contact-me{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.img-filter {
+    filter: invert(8%) sepia(100%) saturate(7317%) hue-rotate(248deg) brightness(95%) contrast(143%);
+}

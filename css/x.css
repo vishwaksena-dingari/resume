@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.body .resume {
+  width: 595px;
+}
+
+.body .resume .resume-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .resume .resume-header hr {
+  width: 100%;
+  background-color: #eff0f2;
+  border-style: none;
+  height: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.body .resume .resume-header .contact {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.body .resume .resume-header .contact div {
+  padding: 0 0.5rem 0.1rem 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.body .resume .resume-header .contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.body .resume .resume-header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .resume .resume-header .header .name {
+  font-family: 'Cardo';
+  font-size: 16px;
+  padding: 0.2rem;
+}
+
+.body .resume .resume-header .header .occupation {
+  font-size: 10px;
+  padding: 0.2rem;
+}
+
+.body .resume .resume-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .resume .resume-content .resume-content-left {
+  width: 50%;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.body .resume .resume-content .resume-content-left .education {
+  font-size: 12px;
+  padding-bottom: 1rem;
+}
+
+.body .resume .resume-content .resume-content-left .education .heading {
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-left .education .education-content {
+  font-size: 9px;
+}
+
+.body .resume .resume-content .resume-content-left .education .education-content ul {
+  padding-left: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-left .projects {
+  font-size: 12px;
+  padding-bottom: 1rem;
+}
+
+.body .resume .resume-content .resume-content-left .projects .heading {
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-left .projects .projects-content {
+  font-size: 9px;
+}
+
+.body .resume .resume-content .resume-content-left .projects .projects-content .project .project-title {
+  font-weight: 600;
+}
+
+.body .resume .resume-content .resume-content-left .projects .projects-content ul {
+  padding-left: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content hr {
+  width: 1px;
+  background-color: #eff0f2;
+  border-style: none;
+}
+
+.body .resume .resume-content .resume-content-right {
+  width: 50%;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.body .resume .resume-content .resume-content-right .skills {
+  font-size: 12px;
+  padding-bottom: 1rem;
+}
+
+.body .resume .resume-content .resume-content-right .skills .heading {
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-right .skills .skills-content {
+  font-size: 9px;
+}
+
+.body .resume .resume-content .resume-content-right .skills .skills-content .skill-type {
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-right .skills .skills-content .skill-type .skills-title {
+  font-weight: 600;
+}
+
+.body .resume .resume-content .resume-content-right .courses {
+  font-size: 12px;
+  padding-bottom: 1rem;
+}
+
+.body .resume .resume-content .resume-content-right .courses .heading {
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-right .courses .course {
+  font-size: 9px;
+}
+
+.body .resume .resume-content .resume-content-right .courses .course .course-title {
+  font-weight: 600;
+}
+
+.body .resume .resume-content .resume-content-right .courses .course ul {
+  font-size: 9px;
+  padding-left: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-right .experience {
+  font-size: 9px;
+}
+
+.body .resume .resume-content .resume-content-right .experience .heading {
+  font-size: 12px;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .resume-content .resume-content-right .experience .experience-list .experience-title {
+  font-weight: 600;
+}
+
+.body .resume .resume-content .resume-content-right .experience .experience-list ul {
+  padding-left: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.body .resume .footer {
+  font-size: 10px;
+}
+
+.body .resume .footer .contact-me {
+  font-weight: 600;
+}
+
+.img-filter {
+  -webkit-filter: invert(8%) sepia(100%) saturate(7317%) hue-rotate(248deg) brightness(95%) contrast(143%);
+          filter: invert(8%) sepia(100%) saturate(7317%) hue-rotate(248deg) brightness(95%) contrast(143%);
+}
+/*# sourceMappingURL=x.css.map */
