@@ -48,7 +48,7 @@
 }
 
 .body .resume .resume-header .contact {
-  font-size: 10px;
+  font-size: 0.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,12 +93,12 @@
 
 .body .resume .resume-header .header .name {
   font-family: 'Cardo';
-  font-size: 16px;
+  font-size: 1rem;
   padding: 0.2rem;
 }
 
 .body .resume .resume-header .header .occupation {
-  font-size: 10px;
+  font-size: 0.625rem;
   padding: 0.2rem;
 }
 
@@ -118,18 +118,18 @@
 }
 
 .body .resume .resume-content .resume-content-left .education {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-bottom: 1rem;
 }
 
 .body .resume .resume-content .resume-content-left .education .heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
 
 .body .resume .resume-content .resume-content-left .education .education-content {
-  font-size: 9px;
+  font-size: 0.563rem;
 }
 
 .body .resume .resume-content .resume-content-left .education .education-content ul {
@@ -138,18 +138,22 @@
 }
 
 .body .resume .resume-content .resume-content-left .projects {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-bottom: 1rem;
 }
 
+.body .resume .resume-content .resume-content-left .projects strong {
+  color: #171717;
+}
+
 .body .resume .resume-content .resume-content-left .projects .heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
 
 .body .resume .resume-content .resume-content-left .projects .projects-content {
-  font-size: 9px;
+  font-size: 0.563rem;
 }
 
 .body .resume .resume-content .resume-content-left .projects .projects-content .project .project-title {
@@ -174,18 +178,18 @@
 }
 
 .body .resume .resume-content .resume-content-right .skills {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-bottom: 1rem;
 }
 
 .body .resume .resume-content .resume-content-right .skills .heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
 
 .body .resume .resume-content .resume-content-right .skills .skills-content {
-  font-size: 9px;
+  font-size: 0.563rem;
 }
 
 .body .resume .resume-content .resume-content-right .skills .skills-content .skill-type {
@@ -197,18 +201,18 @@
 }
 
 .body .resume .resume-content .resume-content-right .courses {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-bottom: 1rem;
 }
 
 .body .resume .resume-content .resume-content-right .courses .heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
 
 .body .resume .resume-content .resume-content-right .courses .course {
-  font-size: 9px;
+  font-size: 0.563rem;
 }
 
 .body .resume .resume-content .resume-content-right .courses .course .course-title {
@@ -216,17 +220,21 @@
 }
 
 .body .resume .resume-content .resume-content-right .courses .course ul {
-  font-size: 9px;
+  font-size: 0.563rem;
   padding-left: 0.9rem;
   padding-bottom: 0.5rem;
 }
 
 .body .resume .resume-content .resume-content-right .experience {
-  font-size: 9px;
+  font-size: 0.563rem;
+}
+
+.body .resume .resume-content .resume-content-right .experience strong {
+  color: #171717;
 }
 
 .body .resume .resume-content .resume-content-right .experience .heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
@@ -241,7 +249,7 @@
 }
 
 .body .resume .footer {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .body .resume .footer .contact-me {

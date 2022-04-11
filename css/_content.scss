@@ -10,17 +10,17 @@
         // border: 1px solid red;
 
         .education {
-            font-size: 12px;
+            font-size: 0.75rem;
             padding-bottom: 1rem;
 
             .heading {
-                font-size: 12px;
+                font-size: 0.75rem;
                 font-weight: 900;
                 padding-bottom: 0.5rem;
             }
 
             .education-content {
-                font-size: 9px;
+                font-size: 0.563rem;
 
                 ul {
                     padding-left: 0.9rem;
@@ -30,17 +30,21 @@
         }
 
         .projects {
-            font-size: 12px;
+            font-size: 0.75rem;
             padding-bottom: 1rem;
 
+            strong{
+                color: #171717;
+            }
+
             .heading {
-                font-size: 12px;
+                font-size: 0.75rem;
                 font-weight: 900;
                 padding-bottom: 0.5rem;
             }
 
             .projects-content {
-                font-size: 9px;
+                font-size: 0.563rem;
 
                 .project {
                     .project-title {
@@ -69,17 +73,17 @@
         // border: 1px solid red;
 
         .skills {
-            font-size: 12px;
+            font-size: 0.75rem;
             padding-bottom: 1rem;
 
             .heading {
-                font-size: 12px;
+                font-size: 0.75rem;
                 font-weight: 900;
                 padding-bottom: 0.5rem;
             }
 
             .skills-content {
-                font-size: 9px;
+                font-size: 0.563rem;
 
                 .skill-type {
                     padding-bottom: 0.5rem;
@@ -92,24 +96,24 @@
         }
 
         .courses {
-            font-size: 12px;
+            font-size: 0.75rem;
             padding-bottom: 1rem;
 
             .heading {
-                font-size: 12px;
+                font-size: 0.75rem;
                 font-weight: 900;
                 padding-bottom: 0.5rem;
             }
 
             .course {
-                font-size: 9px;
+                font-size: 0.563rem;
 
                 .course-title {
                     font-weight: 600;
                 }
 
                 ul {
-                    font-size: 9px;
+                    font-size: 0.563rem;
                     padding-left: 0.9rem;
                     padding-bottom: 0.5rem;
                 }
@@ -117,10 +121,13 @@
         }
 
         .experience {
-            font-size: 9px;
+            font-size: 0.563rem;
+            strong{
+                color: #171717;
+            }
 
             .heading {
-                font-size: 12px;
+                font-size: 0.75rem;
                 font-weight: 900;
                 padding-bottom: 0.5rem;
             }
