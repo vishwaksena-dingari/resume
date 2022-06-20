@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -21,6 +25,7 @@
     .resume {
         width: 595px;
         // height: 842px;
+        border: 1px solid red;
 
         .resume-header {
             display: flex;
@@ -47,13 +52,25 @@
                 padding: 0.15rem 0rem;
 
                 div {
-                    // width: 50%;
+                    width: 50%;
                     padding: 0.1rem 0rem 0.1rem 0.15rem;
                     // margin-top: 0.2rem;
+                    // border: 1px solid red;
+
+                    div {
+                        width: 100%;
+                        // border: 1px solid red;
+                    }
                 }
 
+                // .left {
+                //     padding-right: 5rem;
+                //     border: 1px solid red;
+                // }
+
                 .right {
-                    margin-left: 5rem;
+                    // padding-left: 1rem;
+                    // border: 1px solid red;
                 }
 
                 a {
