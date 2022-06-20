@@ -12,9 +12,15 @@
     align-items: center;
     margin-top: 1rem;
 
-    .resume {
+    .black-horizontal {
         width: 100%;
-        height: 842px;
+        height: 0.5px;
+        background-color: #000000;
+    }
+
+    .resume {
+        width: 595px;
+        // height: 842px;
 
         .resume-header {
             display: flex;
@@ -41,8 +47,13 @@
                 padding: 0.15rem 0rem;
 
                 div {
-                    padding: 0.1rem 0rem;
+                    // width: 50%;
+                    padding: 0.1rem 0rem 0.1rem 0.15rem;
                     // margin-top: 0.2rem;
+                }
+
+                .right {
+                    margin-left: 5rem;
                 }
 
                 a {
