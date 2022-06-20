@@ -22,7 +22,6 @@ html {
 }
 .body .resume {
   width: 595px;
-  border: 1px solid red;
 }
 .body .resume .resume-header {
   display: flex;
