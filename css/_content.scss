@@ -5,7 +5,7 @@
 
     .resume-content-left {
         width: 50%;
-        padding: 0.5rem;
+        padding: 0.5rem 0.5rem 0rem 0.5rem;
         // margin-right: 2rem;
         // border: 1px solid red;
 
@@ -86,7 +86,7 @@
                 font-size: 0.563rem;
 
                 .skill-type {
-                    padding-bottom: 0.5rem;
+                    padding-bottom: 0.3rem;
 
                     .skills-title {
                         font-weight: 600;
@@ -117,11 +117,57 @@
                     padding-left: 0.9rem;
                     padding-bottom: 0.5rem;
                 }
+
+                .course-grid {
+                    display: grid;
+                    text-align: center;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                    grid-template-areas:
+                        "c-g-1 c-g-2 c-g-3 c-g-3"
+                        "c-g-4 c-g-4 c-g-5 c-g-5"
+                        "c-g-6 c-g-6 c-g-7 c-g-7"
+                        // "c-g-7 c-g-7 c-g-7 c-g-7"
+                        "c-g-8 c-g-8 c-g-8 c-g-8";
+                }
+
+                .course-grid-1 {
+                    grid-area: c-g-1;
+                }
+
+                .course-grid-2 {
+                    grid-area: c-g-2;
+                }
+
+                .course-grid-3 {
+                    grid-area: c-g-3;
+                }
+
+                .course-grid-4 {
+                    grid-area: c-g-4;
+                }
+
+                .course-grid-5 {
+                    grid-area: c-g-5;
+                }
+
+                .course-grid-6 {
+                    grid-area: c-g-6;
+                }
+
+                .course-grid-7 {
+                    grid-area: c-g-7;
+                }
+
+                .course-grid-8 {
+                    grid-area: c-g-8;
+                }
             }
         }
 
         .experience {
             font-size: 0.563rem;
+            padding-bottom: 1rem;
 
             strong {
                 color: #171717;
