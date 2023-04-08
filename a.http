@@ -1,0 +1,34 @@
+
+# API Secret-0: BhlpCLFlDmHPcuxz
+# #######################################
+# mail&password: n64cxtb2ja@email.edu.pl
+# API Secret: Z8GiYtizyuPaT7EM
+# API Key: 256353512
+
+POST https://v2.convertapi.com/convert/web/to/pdf?Secret=BhlpCLFlDmHPcuxz
+Content-Type: application/json
+
+{
+    "Parameters": [
+        {
+            "Name": "Url",
+            "Value": "https://vishwaksena-vishnu.github.io/resume/"
+        },
+        {
+            "Name": "StoreFile",
+            "Value": true
+        },
+        {
+            "Name": "ConversionDelay",
+            "Value": "10"
+        },
+        {
+            "Name": "ViewportWidth",
+            "Value": "595"
+        },
+        {
+            "Name": "ViewportHeight",
+            "Value": "842"
+        }
+    ]
+}
