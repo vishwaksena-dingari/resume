@@ -1,0 +1,259 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% % Sections formatting
+% \titleformat{\section}{
+%   \vspace{-4pt}\scshape\raggedright\large\bfseries
+% }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Sections formatting
+\titleformat{\section}{
+  \vspace{0pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  {\Huge \scshape Vishwaksena Vishnu Simha Dingari} \\ \vspace{2pt}
+  % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+  \href{tel:+918374365916}{\small \raisebox{-0.1\height}\faPhone \ \underline{+91\,837-436-5916}} ~
+  \href{https://github.com/vishwaksena-dingari}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/vishwaksena-dingari}}  ~\\ \;\;
+  \href{mailto:vishwaksena.dingari@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{vishwaksena.dingari@gmail.com}} ~
+  \href{https://www.linkedin.com/in/vishwaksena-dingari-8b2ab9218}{\raisebox{-0.2\height}\faLinkedinIn\ \underline{linkedin.com/in/vishwaksena-dingari-8b2ab9218}}  ~
+  \vspace{-8pt}
+\end{center}
+%---------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{National Institute of Technology, Manipur}{2019 -- 2023}
+{Bachelor of Technology (B.Tech) in Computer Science and Engineering(\textbf{GPA: 8.63})}{Imphal, Manipur}
+\resumeSubHeadingListEnd
+%-------------------------------
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{An OCR System for Meetei-Mayek Script} $|$ \emph{Python, CNN, Transfer Learning}}{July 2023}
+\resumeItemListStart
+\resumeItem{Developed a robust printed character recognition system for the Meetei-Mayek script of the Manipuri language, involving image preprocessing, segmentation, and database creation.}
+\resumeItem{Implemented a comprehensive segmentation approach, initially breaking down text-containing images into lines and subsequently into words through a simplified histogram segmentation method. Further refinement was achieved by utilizing contour-based techniques to extract individual letters from words.}
+\resumeItem{Implemented state-of-the-art convolutional neural networks (CNNs), including VGG-16, VGG-19, ResNet152-V2, and MobileNetV2, using transfer learning to achieve an impressive accuracy of approximately 97\% in character classification.} \vspace{-10pt}
+% \resumeItem{Contributed to advancing the field of character recognition and language preservation by addressing the unique challenges of Meetei-Mayek script through innovative image processing and deep learning techniques.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{\textbf{Vidly and Vidly API} $|$ \emph{React, NodeJS, MongoDB}}{April 2022}
+\resumeItemListStart
+\resumeItem{A Web-Interface and API for a comprehensive movies database.}
+\resumeItem{Implemented robust authentication mechanisms and seamlessly integrated the Web-Interface with the API, facilitating essential user actions such as signup, login, logout, and error logging for enhanced system security and user experience.}
+\resumeItem{Executed CRUD (Create, Read, Update, Delete) operations, Incorporated advanced features such as filtering, pagination and search, enhancing the user interaction, experience and optimizing data retrieval.}
+\resumeItem{Employed JSON Web Tokens (JWTs) to fortify login sessions, ensuring the precise identification of privileged admin users while bolstering the overall security of the system.}
+\resumeItemListEnd
+\vspace{-13pt}
+% \resumeProjectHeading
+% {\textbf{Transaction Management GUI} $|$ \emph{Java, Android Studio}}{July 2021}
+% \resumeItemListStart
+% \resumeItem{}
+% \resumeItem{}
+% \resumeItem{}
+% \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%------------------------------
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{OmniMuse Consultants}{August 2021 -- September 2021}
+{Coding Curriculum Development Internship}{Remote}
+\resumeItemListStart
+\resumeItem{Developed educational modules in HTML, CSS, Javascript, Python, and Java, serving diverse coding backgrounds.}
+\resumeItem{Leveraged external libraries like pygames and p5.js to enrich the learning journey, promoting hands-on application.}
+\resumeItem{Developed a curriculum that spans from introductory to intermediate levels, ensuring comprehensive skill development.}
+\resumeItem{Played a pivotal role in shaping a well-rounded curriculum in HTML, CSS, Javascript, Python, and Java.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+%--------------------------------
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{\textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL, PHP} \\
+        \textbf{Developer Tools}{: VS Code, Android Studio} \\
+        \textbf{Libraries/Technologies/Frameworks}{: GitHub, NodeJS, ReactJS, Bootstrap}
+        }
+\end{itemize}
+\vspace{-16pt}
+%----------------------------------------
+
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+%\resumeSubHeadingListStart
+\begin{multicols}{4}
+  \begin{itemize}[itemsep=-5pt, parsep=3pt]
+    \item\small Data Structures
+    \item Software Methodology
+    \item Algorithms
+    \item Database Management
+    \item Object-Oriented Programming
+    \item Machine Learning
+    \item Artificial Intelligence
+  \end{itemize}
+\end{multicols}
+\vspace*{2.0\multicolsep}
+%\resumeSubHeadingListEnd
+%--------------------------------
+
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeSubheading{\href{https://link.springer.com/chapter/10.1007/978-981-99-4713-3_50}{An OCR System for Meetei-Mayek script}}{2023}{A Printed Character Recognition System for Meetei-Mayek Script Using Transfer Learning}{ICSTE-23}
+\resumeItemListStart
+\resumeItem{Published a paper on OCR system for the Meetei-Mayek script of the Manipuri language. The system includes image preprocessing, segmentation, and database creation. Implemented a state-of-the-art convolutional neural network which achieved a high level in character classification.}
+% \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+% \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+% \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-------------------------------------
+
+
+
+
+\end{document}
